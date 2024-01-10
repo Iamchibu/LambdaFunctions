@@ -1,5 +1,8 @@
 import kotlin.system.measureTimeMillis
-
+/**
+ * Chibundom Ejimuda <cejimuda@bu.edu>
+ * Created on 11/29/2023
+ */
 // Global constant
 const val RANGE = 10000
 
