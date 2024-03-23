@@ -10,17 +10,49 @@
 		5861533A2B4A0FC200790ACC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586153392B4A0FC200790ACC /* ContentView.swift */; };
 		5861533C2B4A0FC400790ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5861533B2B4A0FC400790ACC /* Assets.xcassets */; };
 		5861533F2B4A0FC400790ACC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5861533E2B4A0FC400790ACC /* Preview Assets.xcassets */; };
+		58B257DB2BA4BB2B00459E69 /* LambdaFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B257DA2BA4BB2B00459E69 /* LambdaFunctions.swift */; };
+		58CA7B0A2BA40718006F2E3D /* FunctionalExperiments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CA7B092BA40718006F2E3D /* FunctionalExperiments.swift */; };
+		58FBFBBB2BA2341C00A2C333 /* FunctionalExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FBFBBA2BA2341C00A2C333 /* FunctionalExamples.swift */; };
+		58FBFBC82BA2374500A2C333 /* LambdaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FBFBC72BA2374500A2C333 /* LambdaTests.swift */; };
+		58FBFBD02BA25E2500A2C333 /* EnergyMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FBFBCE2BA25E0900A2C333 /* EnergyMetric.swift */; };
+		58FBFBD22BA2722200A2C333 /* BatteryLevelMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FBFBD12BA2722200A2C333 /* BatteryLevelMetric.swift */; };
+		58FBFBD62BA2A6B500A2C333 /* AtomicArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FBFBD42BA2A64A00A2C333 /* AtomicArray.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58FBFBC92BA2374500A2C333 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5861532C2B4A0FC200790ACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 586153332B4A0FC200790ACC;
+			remoteInfo = Lambda;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		586153342B4A0FC200790ACC /* Lambda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lambda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		586153392B4A0FC200790ACC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5861533B2B4A0FC400790ACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5861533E2B4A0FC400790ACC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58B257DA2BA4BB2B00459E69 /* LambdaFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LambdaFunctions.swift; sourceTree = "<group>"; };
+		58CA7B092BA40718006F2E3D /* FunctionalExperiments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalExperiments.swift; sourceTree = "<group>"; };
+		58FBFBBA2BA2341C00A2C333 /* FunctionalExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalExamples.swift; sourceTree = "<group>"; };
+		58FBFBC52BA2374500A2C333 /* LambdaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LambdaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FBFBC72BA2374500A2C333 /* LambdaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LambdaTests.swift; sourceTree = "<group>"; };
+		58FBFBCE2BA25E0900A2C333 /* EnergyMetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyMetric.swift; sourceTree = "<group>"; };
+		58FBFBD12BA2722200A2C333 /* BatteryLevelMetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryLevelMetric.swift; sourceTree = "<group>"; };
+		58FBFBD42BA2A64A00A2C333 /* AtomicArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		586153312B4A0FC200790ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58FBFBC22BA2374500A2C333 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				586153362B4A0FC200790ACC /* Lambda */,
+				58FBFBC62BA2374500A2C333 /* LambdaTests */,
 				586153352B4A0FC200790ACC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -42,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				586153342B4A0FC200790ACC /* Lambda.app */,
+				58FBFBC52BA2374500A2C333 /* LambdaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,6 +86,9 @@
 				586153392B4A0FC200790ACC /* ContentView.swift */,
 				5861533B2B4A0FC400790ACC /* Assets.xcassets */,
 				5861533D2B4A0FC400790ACC /* Preview Content */,
+				58FBFBBA2BA2341C00A2C333 /* FunctionalExamples.swift */,
+				58CA7B092BA40718006F2E3D /* FunctionalExperiments.swift */,
+				58B257DA2BA4BB2B00459E69 /* LambdaFunctions.swift */,
 			);
 			path = Lambda;
 			sourceTree = "<group>";
@@ -62,6 +99,33 @@
 				5861533E2B4A0FC400790ACC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58FBFBC62BA2374500A2C333 /* LambdaTests */ = {
+			isa = PBXGroup;
+			children = (
+				58FBFBDA2BA2A7FC00A2C333 /* Utils */,
+				58FBFBD72BA2A6D300A2C333 /* Metrics */,
+				58FBFBC72BA2374500A2C333 /* LambdaTests.swift */,
+			);
+			path = LambdaTests;
+			sourceTree = "<group>";
+		};
+		58FBFBD72BA2A6D300A2C333 /* Metrics */ = {
+			isa = PBXGroup;
+			children = (
+				58FBFBCE2BA25E0900A2C333 /* EnergyMetric.swift */,
+				58FBFBD12BA2722200A2C333 /* BatteryLevelMetric.swift */,
+			);
+			path = Metrics;
+			sourceTree = "<group>";
+		};
+		58FBFBDA2BA2A7FC00A2C333 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				58FBFBD42BA2A64A00A2C333 /* AtomicArray.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +148,24 @@
 			productReference = 586153342B4A0FC200790ACC /* Lambda.app */;
 			productType = "com.apple.product-type.application";
 		};
+		58FBFBC42BA2374500A2C333 /* LambdaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58FBFBCB2BA2374500A2C333 /* Build configuration list for PBXNativeTarget "LambdaTests" */;
+			buildPhases = (
+				58FBFBC12BA2374500A2C333 /* Sources */,
+				58FBFBC22BA2374500A2C333 /* Frameworks */,
+				58FBFBC32BA2374500A2C333 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58FBFBCA2BA2374500A2C333 /* PBXTargetDependency */,
+			);
+			name = LambdaTests;
+			productName = LambdaTests;
+			productReference = 58FBFBC52BA2374500A2C333 /* LambdaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -91,11 +173,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1510;
+				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					586153332B4A0FC200790ACC = {
 						CreatedOnToolsVersion = 15.1;
+					};
+					58FBFBC42BA2374500A2C333 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 586153332B4A0FC200790ACC;
 					};
 				};
 			};
@@ -113,6 +199,7 @@
 			projectRoot = "";
 			targets = (
 				586153332B4A0FC200790ACC /* Lambda */,
+				58FBFBC42BA2374500A2C333 /* LambdaTests */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +214,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		58FBFBC32BA2374500A2C333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -134,11 +228,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58CA7B0A2BA40718006F2E3D /* FunctionalExperiments.swift in Sources */,
 				5861533A2B4A0FC200790ACC /* ContentView.swift in Sources */,
+				58B257DB2BA4BB2B00459E69 /* LambdaFunctions.swift in Sources */,
+				58FBFBBB2BA2341C00A2C333 /* FunctionalExamples.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58FBFBC12BA2374500A2C333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FBFBD62BA2A6B500A2C333 /* AtomicArray.swift in Sources */,
+				58FBFBC82BA2374500A2C333 /* LambdaTests.swift in Sources */,
+				58FBFBD02BA25E2500A2C333 /* EnergyMetric.swift in Sources */,
+				58FBFBD22BA2722200A2C333 /* BatteryLevelMetric.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58FBFBCA2BA2374500A2C333 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 586153332B4A0FC200790ACC /* Lambda */;
+			targetProxy = 58FBFBC92BA2374500A2C333 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		586153402B4A0FC400790ACC /* Debug */ = {
@@ -320,6 +436,44 @@
 			};
 			name = Release;
 		};
+		58FBFBCC2BA2374500A2C333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6N8H894BGC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bu.research.LambdaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lambda.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lambda";
+			};
+			name = Debug;
+		};
+		58FBFBCD2BA2374500A2C333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6N8H894BGC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bu.research.LambdaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lambda.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lambda";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -337,6 +491,15 @@
 			buildConfigurations = (
 				586153432B4A0FC400790ACC /* Debug */,
 				586153442B4A0FC400790ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58FBFBCB2BA2374500A2C333 /* Build configuration list for PBXNativeTarget "LambdaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FBFBCC2BA2374500A2C333 /* Debug */,
+				58FBFBCD2BA2374500A2C333 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

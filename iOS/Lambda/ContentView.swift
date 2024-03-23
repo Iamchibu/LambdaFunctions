@@ -1,8 +1,11 @@
 /**
+ * @Deprecated
  * Gaston Longhitano <gastonl@bu.edu> @ Boston University - Research
  *
  * This source code is licensed under the terms found in the
  * LICENSE file in the root directory of this source tree.
+ *
+ * See tests for performance mesure
  */
 
 
@@ -235,6 +238,10 @@ struct ContentView: View {
         resultText.append("\(functionName), \(RANGE), \(String(format: "%.4f", result.0)), \(result.1), \(result.2)\n")
     }
    
+    
+    
+    
+    
     private func measureExecution(operation: () -> Void ) -> (Double, UInt64, String) {
         let startMemory = MemoryUsage.reportMemory()
         let startTime = CFAbsoluteTimeGetCurrent()
