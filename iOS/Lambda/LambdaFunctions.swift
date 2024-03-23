@@ -1,4 +1,6 @@
 /**
+ * @Deprecated: Use FunctionalExperiments instead
+ *
  * Gaston Longhitano <gastonl@bu.edu> @ Boston University - Research
  *
  * This source code is licensed under the terms found in the
